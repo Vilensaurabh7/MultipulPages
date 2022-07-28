@@ -101,7 +101,7 @@ h2{
 }
 @media (max-width:998px){
     html{
-      font-size: 40%;
+      font-size: 38%;
       color: blue;
     }
 }
@@ -112,6 +112,6 @@ h2{
 }
 @media (max-width:450px){
     html{
-      font-size: 26%;
+      font-size: 24%;
     }
 }
