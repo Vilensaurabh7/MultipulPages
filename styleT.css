@@ -32,14 +32,14 @@ html{
 
 #img{
     box-decoration-break: inherit;
-    width: 8rem;
-    margin-left: 2.5rem;
+    width: 14rem;
+    margin-left: 4.5rem;
    
 }
 span{
-    font-size: 4.4rem;
+    font-size: 9.4rem;
     text-align: left;
-    margin-left: .6rem;
+    margin-left: 1.6rem;
     margin-right: 6rem;
    
     
@@ -57,16 +57,16 @@ span{
     color: rgb(211, 0, 0);
     /* margin: .2rem; */
     margin-left: 2rem;
-     font-size: 3.8rem;
+     font-size: 8.8rem;
 }
 a:hover{
     color: rgb(65, 1, 33);
 }
 .heading{
      margin-left: 8rem;
-    margin-top: 25rem;
+    margin-top: 45rem;
    text-align:center;
-   font-size: 5.5rem;
+   font-size: 9.5rem;
    text-transform: uppercase;
    color: rgba(44, 174, 250, 0.836);
 }
@@ -75,7 +75,7 @@ a:hover{
 }
 button{
     margin-top: 4rem;
-    font-size: 4.2rem;
+    font-size: 8.2rem;
     padding: 1.4rem;
     border-radius: 20%;
     background-color: coral;
@@ -93,8 +93,8 @@ button:hover{
     cursor: pointer;
 }
 h2{
-    margin-top: 35rem;
-    font-size: 5.8rem;
+    margin-top: 90rem;
+    font-size: 13rem;
     text-align: right;
     margin-right: 3.5rem;
     color: rgb(230, 255, 2);
