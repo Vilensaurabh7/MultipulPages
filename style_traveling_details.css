@@ -11,7 +11,7 @@ html{
     width: 100%;
 }
 .main{
-    font-size: 4rem;
+    font-size: 8rem;
     text-transform: capitalize;
     margin: 6.2rem;
    
@@ -21,7 +21,7 @@ html{
     color: black;
     font-weight: bolder;
     font-style: italic;
-    font-size: 8rem;
+    font-size: 12rem;
     font-family:cursive;
 }
 ul li{
@@ -42,7 +42,7 @@ a:hover, button:hover{
 }
 button{
     text-decoration: none;
-    font-size: 5rem;
+    font-size: 8rem;
     padding: .9rem;
     text-transform: capitalize;
     margin: 1.9rem;
