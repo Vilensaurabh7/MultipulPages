@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler Data</title>
+    <link rel="stylesheet" href="style_traveling.css">
+</head>
+<body>
+    <div class="main">
+        <form action="details">
+            <div class="information">
+                <h1>Traveler data</h1>
+                <div class="name">
+                <h3>name</h3>
+                <select name="choose" id="a">
+                    <option value="prefix">Mr.</option>
+                    <option value="prefix">Mrs.</option>
+                </select>
+                <input type="text" name="first nam" id="b" placeholder="First name">
+                <input type="text" name="middle nam" id="c" placeholder="Middle name">
+                <input type="text" name="last nam" id="d" placeholder="Last name">   
+            </div>
+            <h3>passport no</h3>
+            <input type="number" name="aa" id="e">
+            <h3>nationality</h3>
+            <input type="text" name="bb" id="f" >
+            <div class="date">
+                <h3>Expiry date</h3>
+                <input type="date" name="cc" id="g">
+                <h3>issue date</h3>
+                <input type="date" name="dd" id="h">
+            </div>
+            <h3>email</h3>
+            <input type="email" name="ee" id="i" placeholder="xyz11@gmail.com">
+            <input type="email" name="ff" id="j" placeholder="Reconfirm E-mail">
+            <h3>phone number</h3>
+            <input type="number" name="gg" id="k">
+            <h3>address</h3>
+            <div class="address">
+            <input type="text" name="hh" id="l" placeholder="Street Address">
+            <br>
+            <input type="text" name="ii" id="m" placeholder="Street Address Line 2">
+        </div>
+            <br>
+            <div class="city">
+            <input type="text" name="jj" id="n" placeholder="city">
+            <input type="text" name="kk" id="o" placeholder="state">
+        </div>
+            <br>
+            <div class="code">
+            <input type="number" name="ll" id="p" placeholder="Zip Code">
+            <input type="text" name="mm" id="q" placeholder="Type Country">
+        </div>
+            <div class="last">
+                <input type="reset" value="Clear">
+                <button>Submit</button>
+                <!-- <button>Clear From</button> -->
+                <button><a href="Home.html">Back</a></button>
+            </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

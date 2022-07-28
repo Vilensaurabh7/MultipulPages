@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.main{ 
+    background-image: url(about_b2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100vh; */
+    background-size: cover;
+   
+}
+.information{
+    margin: 1.5rem;
+    color: rgb(12, 11, 11);
+    font-weight: bolder;
+    font-size: 5rem;
+    padding: 1.9rem;
+    margin: .8rem;
+}
+.heading {
+   width:100%;
+   font-size: 6.5rem;
+   text-align: center;
+   padding: 1.5rem;
+   font-weight: bolder;
+}
+img{
+    width: 30%;
+  height: 15rem;
+}
+.buttum{
+    background-color: lightskyblue;
+   text-align: center;
+}
+button{
+    font-size: 4rem;
+    padding: 2rem;
+    text-align: center;
+    margin: 2.2rem;
+    text-transform: capitalize;
+    border-radius: 12%;
+}
+button a{
+    text-decoration: none;
+    color: brown;
+}
+button:hover{
+    color: black;
+    background-color: rgb(116, 241, 241);
+}
+@media(max-width:998px){
+    html{
+      font-size: 55%;
+    }
+}
+@media(max-width:760px) {
+    html{
+       font-size: 45%; 
+       /* 45%=7.2px */
+    }
+    .information{
+        color: blue;
+    }
+ }

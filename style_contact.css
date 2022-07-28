@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    background-image: url(contact_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 100vh; */
+    color: white;
+}
+.main{
+    text-transform: capitalize;
+    margin: 1.5rem;
+    font-size: 5rem; 
+}
+.heading{
+    padding: 5rem;  
+}
+.heading h1{
+   text-align: center;
+   color: rgb(0, 255, 13);
+}
+.details{
+    margin-top: 2rem;
+   margin-left: 3.3rem;
+   font-size: 4rem;
+   font-weight: bold;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type=text],input[type=number],input[type=email],input[type=date],input[type=file]{
+   font-size: 3.5rem;
+   padding: .9rem;
+}
+.d1 h3,.d2 h3,.address h3,.city h3,.date h3,.upload h3{
+    padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+.d1 input[type=text],.address input[type=text]{
+    /* margin-left: 2rem; */
+    justify-content: space-between;
+    margin-inline-end: 4rem;
+}
+.cs,.city,.date{
+   display: flex;
+   margin-top: 4rem;
+}
+   .city span{
+    margin-inline-end:6rem ;
+   }
+   .date span{
+    margin-inline-end:12rem ;
+    margin-top: 2rem;
+   }
+   .upload{
+    margin-top: 2rem;
+   }
+    input[type=file]{
+    padding-left: 3.2rem;
+   }
+   .buttum{
+     text-align: center;
+  }
+  button{
+    font-size: 4rem;
+    padding: 1.4rem;
+    border-radius: 12%;
+    margin-inline-end: 4rem;
+    text-transform: capitalize;
+    color: blue;
+  }
+  button a{
+    text-decoration: none;
+  }
+  button:hover{
+    color: rgb(238, 255, 0);
+    background-color: coral;
+  }
+  button a:hover{
+    color: rgb(238, 255, 0);
+  }
+  @media(max-width:998px){
+    html{
+      font-size: 55%;
+    }
+}
+@media(max-width:760px) {
+    html{
+       font-size: 45%; 
+       /* 45%=7.2px */
+    }
+ }
+    
+    

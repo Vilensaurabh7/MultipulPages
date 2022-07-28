@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    background-image: url(airplain_background.jpg);
+   box-sizing: border-box;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.main{
+   
+   /* height: 100vh; */
+font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+h1{
+    font-size: 6.5rem ;
+    margin: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 3.5rem;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.first{
+    margin: 4.8rem;
+    padding: 2.4rem;
+    font-size: 4.5rem;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+   
+}
+.first h2{
+    margin-left: 15rem;
+}
+.select{
+    display: flex;
+    margin-left: 8rem;
+}
+.s ,.s1,.s2{
+    padding: 6.5rem;
+    
+}
+input[type=radio] {
+    width: 3.2rem; height: 3.2rem;
+    
+}
+input[type=date],input[list],input[type=number]{
+    font-size: 3rem;
+}
+.s label ,.s1 label,.s2 label{
+    padding: 2rem;
+    font-size: 4.5rem;
+   font-weight: bold;
+}
+.classes ,.date{
+    display: flex;
+    padding: 2.5rem;
+    margin: .8rem;
+}
+.one,.two,.three,.d1,.d2,.d3{
+    margin-left: 11rem;
+    padding-top: 6rem;
+    padding-right: 8.3rem;
+}
+footer {
+   float: right;
+}
+button{
+    text-align: center;
+    font-size: 3.8rem;
+    padding: 1.8rem 2.8rem;
+    text-transform: capitalize;
+    border-radius: 2.2rem;
+    margin-right: .9rem;
+}
+button a{
+    text-decoration: none;
+    color: tomato;
+}
+button a:hover{
+    color: rgb(166, 165, 212);
+}
+@media (max-width:998px){
+    html{
+      font-size: 55%;
+      color: blue;
+    }
+}
+@media (max-width:750px){
+    html{
+      font-size: 45%;
+      color: rgb(252, 8, 110);
+    }
+}

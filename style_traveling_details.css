@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    background-image: url(india-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.main{
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin: 6.2rem;
+   
+    padding: 1.2rem;
+}
+.main h1{
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 8rem;
+    font-family:cursive;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: .7rem;
+    margin-left: 5rem;
+    font-family: fantasy;
+}
+a{
+    text-decoration: none;
+    padding: .9rem;
+   color: blue;
+}
+a:hover, button:hover{
+    color: red;
+    
+}
+button{
+    text-decoration: none;
+    font-size: 5rem;
+    padding: .9rem;
+    text-transform: capitalize;
+    margin: 1.9rem;
+}
+@media(max-width:998px){
+    html{
+      font-size: 55%;
+    }
+}
+@media(max-width:760px) {
+    html{
+       font-size: 45%; 
+       /* 45%=7.2px */
+    }
+ }
