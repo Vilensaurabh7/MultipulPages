@@ -16,7 +16,7 @@ html{
 .main{
     text-transform: capitalize;
     margin: 1.5rem;
-    font-size: 5rem; 
+    font-size: 9rem; 
 }
 .heading{
     padding: 5rem;  
@@ -28,12 +28,12 @@ html{
 .details{
     margin-top: 2rem;
    margin-left: 3.3rem;
-   font-size: 4rem;
+   font-size: 8.5rem;
    font-weight: bold;
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 input[type=text],input[type=number],input[type=email],input[type=date],input[type=file]{
-   font-size: 3.5rem;
+   font-size: 5.5rem;
    padding: .9rem;
 }
 .d1 h3,.d2 h3,.address h3,.city h3,.date h3,.upload h3{
@@ -43,17 +43,17 @@ input[type=text],input[type=number],input[type=email],input[type=date],input[typ
 .d1 input[type=text],.address input[type=text]{
     /* margin-left: 2rem; */
     justify-content: space-between;
-    margin-inline-end: 4rem;
+    margin-inline-end: 6rem;
 }
 .cs,.city,.date{
    display: flex;
-   margin-top: 4rem;
+   margin-top: 5rem;
 }
    .city span{
-    margin-inline-end:6rem ;
+    margin-inline-end:8rem ;
    }
    .date span{
-    margin-inline-end:12rem ;
+    margin-inline-end:14rem ;
     margin-top: 2rem;
    }
    .upload{
@@ -61,12 +61,13 @@ input[type=text],input[type=number],input[type=email],input[type=date],input[typ
    }
     input[type=file]{
     padding-left: 3.2rem;
+    font-size: 8rem;
    }
    .buttum{
      text-align: center;
   }
   button{
-    font-size: 4rem;
+    font-size: 8rem;
     padding: 1.4rem;
     border-radius: 12%;
     margin-inline-end: 4rem;
