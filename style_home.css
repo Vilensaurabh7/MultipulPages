@@ -28,19 +28,19 @@ h1{
     text-decoration: none;
 }
 .first{
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 12rem;
     font-size: 8.5rem;
     color: rgb(242, 242, 250);
     text-transform: capitalize;
    
 }
-.first h2{
+/* .first h2{
     margin-left: 15rem;
-}
+} */
 .select{
     display: flex;
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
     padding-inline-end: 19rem;
 }
 .s ,.s1,.s2{
@@ -62,10 +62,10 @@ input[type=date],input[list],input[type=number]{
 .classes ,.date{
     display: flex;
     padding: 2.5rem;
-    margin: .8rem;
+    /* margin: .8rem; */
 }
 .one,.two,.three,.d1,.d2,.d3{
-    margin-left: 11rem;
+    /* margin-left: 11rem; */
     padding-top: 6rem;
     padding-right: 8.3rem;
 }
